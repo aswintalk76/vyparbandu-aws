@@ -25,7 +25,7 @@ const aboutroutes = require("./routes/aboutUsController");
 
 // Example route
 app.get('/', (req, res) => {
-  res.send('Server is working!!');
+  res.send('Server is working1!!');
 });
 
 app.use("/admin/templates", templatesroutes);
