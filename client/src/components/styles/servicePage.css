@@ -1,0 +1,49 @@
+
+
+p {
+    font-size: 18px
+}
+.f_500{
+    font-weight: 500;
+}
+
+.textSize {
+    font-size: 18px;
+}
+
+.pvtleft {
+    background-color: #edf3fe;
+    border-radius: 25px;
+    /* color: #006eff; */
+    cursor: pointer;
+}
+
+.pvtleft:hover {
+    color: white;
+    background-color: #003c6c;
+    transition: all ease 1s;
+}   
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.sidebar_width{
+    width: 25% !important;
+}
+
+@media only screen and (max-width: 900px){
+    .sidebar_width{
+        width: 30% !important;
+    }
+}
+@media only screen and (max-width: 600px){
+    .sidebar_width{
+        width: 40% !important;
+    }
+}
+@media only screen and (max-width: 400px){
+    .sidebar_width{
+        width: 60% !important;
+    }
+}
